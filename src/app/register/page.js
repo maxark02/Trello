@@ -136,11 +136,11 @@ export default function RegisterPage() {
                             />
                             <label htmlFor="terms" className="ml-2 text-sm text-zinc-400">
                                 Я принимаю{' '}
-                                <Link href="/terms" className="text-purple-400 hover:text-purple-300 transition-colors">
+                                <Link href="/" className="text-purple-400 hover:text-purple-300 transition-colors">
                                     условия использования
                                 </Link>{' '}
                                 и{' '}
-                                <Link href="/privacy" className="text-purple-400 hover:text-purple-300 transition-colors">
+                                <Link href="/" className="text-purple-400 hover:text-purple-300 transition-colors">
                                     политику конфиденциальности
                                 </Link>
                             </label>
