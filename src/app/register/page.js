@@ -34,7 +34,7 @@ export default function RegisterPage() {
                 <div className="flex flex-col items-center bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 rounded-2xl p-8 shadow-2xl gap-6">
                 <h1 className="text-white font-bold text-3xl ">Sign Up</h1>
 
-                <form onSubmit={handleRegister} className=" items-center gap-6">
+                <form onSubmit={handleRegister} className="flex flex-col items-center gap-6">
 
                     <input className="w-70 rounded-3xl p-2 border border-white bg-white"
                            type="email"
