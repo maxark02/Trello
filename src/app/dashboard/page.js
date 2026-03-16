@@ -1,9 +1,9 @@
+'use client'
+
 export default function Dashboard() {
     return (
-        <>
-            <card className="flex flex-col">
-                Dashboard
-            </card>
-        </>
+        <div className="flex flex-col border p-4 rounded-xl shadow">
+            Dashboard
+        </div>
     )
 }
