@@ -5,8 +5,6 @@ import { useRouter } from 'next/navigation'
 import {Eye, EyeOff, Github, Lock, Mail, User} from "lucide-react";
 import Link from "next/link";
 import {createClient} from "@/lib/supabase";
-//import Link from 'next/link'
-//import { Mail, Lock, Eye, EyeOff, User, Github } from 'lucide-react';
 
 export default function RegisterPage() {
     const navigate = useRouter();
